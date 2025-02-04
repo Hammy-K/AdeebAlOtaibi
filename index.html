@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive HTML Lesson</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* إعداد الخط */
+        body {
+            font-family: 'IBM Plex Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9; /* لون خلفية فاتح */
+        }
+
+        /* ترويسة الصفحة */
+        header {
+            background-color: #007BFF; /* لون أزرق */
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+
+        /* قائمة التنقل */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3; /* لون أزرق داكن */
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #004090; /* لون أغمق عند التمرير */
+        }
+
+        /* أقسام الصفحة */
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #0056b3;
+        }
+
+        /* قسم عني */
+        .about-me-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .about-me-container img {
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* تطبيقاتي */
+        .app-container iframe {
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        /* قسم التواصل */
+        #contact p {
+            margin: 0.5rem 0;
+        }
+
+        /* التذييل */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #0056b3;
+            color: white;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personalized Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#my-app">My Application</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-me-container">
+            <img src="https://i.imgur.com/395GA99.jpeg" alt="Adeeb Khalid Al-Otaibi" width="150" height="150">
+            <p>
+                مرحبًا! اسمي أديب خالد العتيبي، وأنا طالب في الصف الأول ثانوي. <br>
+                من أهدافي أن أصبح طبيبًا أو شخصية ذات شأن كبير في الدولة، وأسعى دائمًا لتحقيق هذه الطموحات بالاجتهاد والعمل. <br>
+                أحب امتلاك السيارات وأستمتع بلعب كرة القدم. <br>
+                أؤمن أن تحقيق الأهداف يبدأ بالعمل الجاد والتخطيط السليم، وأسعى لأن أكون قدوة في مجتمعي.
+            </p>
+        </div>
+    </section>
+    <section id="my-app">
+        <h2>My Application</h2>
+        <p>This is where my awesome application lives! Check it out below:</p>
+        <div class="app-container">
+            <iframe height="600" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/Adeeb-Alotaibi/embed/QwLdjZZ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/Adeeb-Alotaibi/pen/QwLdjZZ">
+  Untitled</a> by Adeeb Alotaibi (<a href="https://codepen.io/Adeeb-Alotaibi">@Adeeb-Alotaibi</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+          
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out if you'd like to collaborate or share feedback about my site!</p>
+        <p>Email: adeeb_alotaibi@noon.edu.sa</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Adeeb Khalid Al-Otaibi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
